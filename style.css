@@ -4,10 +4,11 @@ html,body {
     width:100%;
     height: auto;
     position:absolute;
+    align-items: center;
     color: white;
     background-image: url(BG.jpg);
-    background-size: cover;
     text-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+
   }
   .container  {
     width:100%;
@@ -26,7 +27,7 @@ html,body {
     text-align: center;
     left:auto;
     padding-top:5%;
-    width:auto;
+    width:100%;
   }
   
   .blur {
@@ -58,6 +59,16 @@ html,body {
 
 .quote{
     font-size: 15px;
+}
+
+.lingkaran{
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background: transparent;
+  border-radius: 100%;
+  border: 2px solid white;
+  position: absolute;
 }
 
   @media (min-width: 576px) {
